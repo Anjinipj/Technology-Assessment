@@ -3,7 +3,6 @@ import ArticleCard from "../ArticleCard/ArticleCard";
 
 const ArticleList = ({ articles }) => {
   let arr = articles;
-
   const articleCards = arr.map((article, index) => {
     return (
       <ArticleCard

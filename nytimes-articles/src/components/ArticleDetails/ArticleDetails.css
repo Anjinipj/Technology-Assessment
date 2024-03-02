@@ -5,6 +5,7 @@
 .back-btn-container {
   display: flex;
   justify-content: flex-end;
+  align-items: flex-start;
 }
 
 button.back-btn {
@@ -14,7 +15,8 @@ button.back-btn {
 .article-details {
   display: flex;
   align-content: center;
-  margin: 3em 4em;
+  margin: 7em 9em;
+  width: 100%;
 }
 
 
@@ -55,9 +57,9 @@ button.back-btn {
   }
 
   .details-container {
-    width: 40%;
-    margin-right: 1.4em;
-    background-color: rgb(205, 208, 255);
+    width: 100%;
+    margin-right: 2em;
+    background-color: rgb(205, 218, 255);
   }
 
   .img-container {

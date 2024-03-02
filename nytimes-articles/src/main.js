@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import apiCalls from "./api";
 import "./App.css";
-
+import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import ArticleList from "./components/ArticleList/ArticleList";
 
@@ -24,10 +24,8 @@ const Main = () => {
   ) : (
     <div className="app-container">
       <Header />
-
       <ArticleList articles={articles} />
-
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 };

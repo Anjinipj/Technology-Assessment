@@ -5,7 +5,6 @@ import apiCalls from "../../api";
 const ArticleDetail = () => {
   const [articles, setArticles] = useState([]);
   const params = useParams();
-
   const id = params.id;
   useEffect(() => {
     apiCalls.getMostPopularArticles().then((data) => {
